@@ -1,1 +1,2 @@
-# PythonLabsLABS
+#LAB-1
+1. **git clone**- копіювання репозиторію
