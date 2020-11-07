@@ -24,6 +24,18 @@ def how_to_write_logs():
     logger.warning("Це Warning повідомлення")
     logger.error("Це повідомлення про помилку")
 
+def hard_func(var1):
+    A = 0
+    A1 = var1
+    try:
+        print("Що буде якщо A>A1", A>A1, "?")
+    except Exception as e:
+        logger.error("Це повідомлення про помилку")
+        print(e)
+    else:
+        logger.info("Тут буде просто інформативне повідомлення")
+    finally:
+        print("А вот воно що!")
 
 if __name__ == '__main__':
     args = parser.parse_args()
@@ -31,3 +43,12 @@ if __name__ == '__main__':
         how_to_write_logs()
     else:
         main(args.opt)
+
+    common.range_of_nums(1)
+
+    hard_func(10)
+
+    hard_func('10')
+
+
+
