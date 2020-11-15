@@ -1,8 +1,8 @@
 ============================= test session starts ==============================
 platform linux -- Python 3.8.5, pytest-6.1.2, py-1.9.0, pluggy-0.13.1
-rootdir: /home/Mishanyyya/PythonLabsLABS/LAB2
+rootdir: /home/oleh/PythonLabsLABS/LAB2
 collected 4 items
 
 tests/tests.py ....                                                      [100%]
 
-============================== 4 passed in 0.88s ===============================
+============================== 4 passed in 0.86s ===============================
