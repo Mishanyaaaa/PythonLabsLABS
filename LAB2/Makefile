@@ -9,7 +9,7 @@ install:
 
 test:
 	@echo "Start tests."
-	pipenv run pytest tests/tests.py >> results.txt
+	run pytest tests/tests.py > results.txt
 
 run:
 	@echo "Run Python app."
