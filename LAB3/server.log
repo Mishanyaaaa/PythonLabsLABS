@@ -1,0 +1,19 @@
+INFO 2020-11-27 15:46:17,877 root : Сервер доступний. Час на сервері: 2020-11-27 13:46:17.874482
+INFO 2020-11-27 15:46:17,878 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-11-27 15:46:17,878 root : Відповідь сервера місти наступні поля:
+INFO 2020-11-27 15:46:17,878 root : Ключ: date, Значення: 2020-11-27 13:46:17.874482
+INFO 2020-11-27 15:46:17,878 root : Ключ: current_page, Значення: http://localhost:8000/health/
+INFO 2020-11-27 15:46:17,878 root : Ключ: server_info, Значення: Linux
+INFO 2020-11-27 15:46:17,878 root : Ключ: client_info, Значення: mishaaanya
+ERROR 2020-11-27 15:47:17,947 root : Page not found, Error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f121ad80b80>: Failed to establish a new connection: [Errno 111] Connection refused')) 
+ERROR 2020-11-27 15:48:17,993 root : Page not found, Error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f121ad80b20>: Failed to establish a new connection: [Errno 111] Connection refused')) 
+ERROR 2020-11-27 15:49:18,062 root : Page not found, Error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f121b0b93d0>: Failed to establish a new connection: [Errno 111] Connection refused')) 
+ERROR 2020-11-27 15:50:18,124 root : Page not found, Error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f121b0b9be0>: Failed to establish a new connection: [Errno 111] Connection refused')) 
+INFO 2020-11-27 15:51:18,284 root : Сервер доступний. Час на сервері: 2020-11-27 13:51:18.279220
+INFO 2020-11-27 15:51:18,285 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-11-27 15:51:18,286 root : Відповідь сервера місти наступні поля:
+INFO 2020-11-27 15:51:18,286 root : Ключ: date, Значення: 2020-11-27 13:51:18.279220
+INFO 2020-11-27 15:51:18,286 root : Ключ: current_page, Значення: http://localhost:8000/health/
+INFO 2020-11-27 15:51:18,286 root : Ключ: server_info, Значення: Linux
+INFO 2020-11-27 15:51:18,286 root : Ключ: client_info, Значення: mishaaanya
+ERROR 2020-11-27 15:52:18,306 root : Page not found, Error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f121ad80820>: Failed to establish a new connection: [Errno 111] Connection refused')) 

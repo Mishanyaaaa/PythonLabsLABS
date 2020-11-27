@@ -1,8 +1,8 @@
+import time
+
 import requests
 import json
 import logging
-
-import time
 
 logging.basicConfig(
     filename="server.log",
@@ -19,8 +19,8 @@ def main(url):
         try:
             r = requests.get(url)
             data = json.loads(r.content)
-            logging.info("Сервер доступний. Час на сервері: %s", data['datetime'])
-            logging.info("Запитувана сторінка: : %s", data['server_url'])
+            logging.info("Сервер доступний. Час на сервері: %s", data['date'])
+            logging.info("Запитувана сторінка: : %s", data['current_page'])
             logging.info("Відповідь сервера місти наступні поля:")
             for key in data.keys():
                 logging.info("Ключ: %s, Значення: %s", key, data[key])
