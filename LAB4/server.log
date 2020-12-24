@@ -1,0 +1,17 @@
+INFO 2020-12-24 14:45:12,442 root : Сервер доступний. Час на сервері: Thu, 24 Dec 2020 14:45:12
+INFO 2020-12-24 14:45:12,454 root : Запитувана сторінка: : /health/
+INFO 2020-12-24 14:45:12,455 root : Відповідь сервера місти наступні поля:
+INFO 2020-12-24 14:45:12,455 root : Ключ: date, Значення: Thu, 24 Dec 2020 14:45:12
+INFO 2020-12-24 14:45:12,456 root : Ключ: current_page, Значення: /health/
+INFO 2020-12-24 14:45:12,456 root : Ключ: server_info, Значення: posix
+INFO 2020-12-24 14:45:12,456 root : Ключ: client_info, Значення: 0ebc1a09b586
+ERROR 2020-12-24 14:46:12,527 root : Page not found, Error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7faae58386a0>: Failed to establish a new connection: [Errno 111] Connection refused')) 
+ERROR 2020-12-24 14:47:12,597 root : Page not found, Error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7faae58385b0>: Failed to establish a new connection: [Errno 111] Connection refused')) 
+INFO 2020-12-24 14:48:12,682 root : Сервер доступний. Час на сервері: Thu, 24 Dec 2020 14:48:12
+INFO 2020-12-24 14:48:12,682 root : Запитувана сторінка: : /health/
+INFO 2020-12-24 14:48:12,682 root : Відповідь сервера місти наступні поля:
+INFO 2020-12-24 14:48:12,683 root : Ключ: date, Значення: Thu, 24 Dec 2020 14:48:12
+INFO 2020-12-24 14:48:12,683 root : Ключ: current_page, Значення: /health/
+INFO 2020-12-24 14:48:12,683 root : Ключ: server_info, Значення: posix
+INFO 2020-12-24 14:48:12,683 root : Ключ: client_info, Значення: 02f63f59dfa3
+ERROR 2020-12-24 14:49:12,774 root : Page not found, Error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7faae5838070>: Failed to establish a new connection: [Errno 111] Connection refused')) 
