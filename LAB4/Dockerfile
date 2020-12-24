@@ -1,7 +1,7 @@
 FROM python:3.8-slim
 
 LABEL author="Mishaaanya"
-LABEL version=1.1
+LABEL version=1.2
 
 # оновлюємо систему
 RUN apt-get update && apt-get upgrade -y
